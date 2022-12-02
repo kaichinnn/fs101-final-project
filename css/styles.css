@@ -1,0 +1,403 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #1E2022;
+}
+
+/**************************** Front page content ****************************/
+
+#title {
+    background-color: #52616B;
+}
+
+#title .main-content {
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    
+}
+
+#title h1 {
+    font-family: 'Montserrat', "FontAwesome";
+    font-weight: 900;
+    font-size: 300%;
+    line-height: 1.5;
+}
+
+.tshirt-mockup {
+    height: 100%;
+    width: 100%;
+    padding: 0 20%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 8%;
+    font-family: 'Montserrat';
+}
+
+.feature-box-content {
+    color: #8F8F8F;
+    font-size: large;
+}
+
+/******** icons section ********/
+
+
+#icons {
+    padding: 8% 18%;
+}
+
+.icon {
+    color: #1E2022;
+    margin-bottom: 2rem;
+}
+
+.icon:hover {
+    color: #52616B;
+}
+
+/******** Carousel Section ********/
+
+#carousel {
+    background-color: #52616B;
+    text-align: center;
+}
+
+.carousel-image-cap {
+    padding: 2%;
+    padding-bottom: 3rem;
+    width: 80%;
+}
+
+.carousel-image-shirt {
+    padding: 2%;
+    padding-bottom: 3rem;
+    width: 60%;
+}
+
+.carousel-image-hoodie {
+    padding: 2%;
+    padding-bottom: 3rem;
+    width: 76%;
+}
+
+.carousel-item {
+    padding: 8% 30%;
+}
+
+.carousel-caption {
+    bottom: 0;
+    top: auto;
+}
+
+/******** Phone case section ********/
+
+#phone-case h5 {
+    color: black;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+#phone-case p {
+    color: black;
+    padding: 5%;
+    text-align: center;
+}
+
+#phone-case {
+    padding: 8% 15%;
+}
+
+#phone-case .card-img{
+    padding: 8%;
+}
+
+
+/**************************** Login Page ****************************/
+
+.login-page {
+    background-color: #C9D6DF;
+}
+
+.login-card {
+    background-color: #52616B;
+}
+
+/**************************** Shop All Page ****************************/
+
+#shop-container {
+    padding: 3%;
+}
+
+.product-grid,.product-grid .product-image{
+    position: relative;
+}
+
+.product-grid {
+    z-index: 1;
+}
+
+.product-grid .product-image a {
+    display: block;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.product-grid .product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-grid .pic-1 {
+    opacity: 1;
+    transition: all .5s ease-out 0s;
+}
+
+.product-grid:hover .pic-1 {
+    opacity: 0;
+}
+
+.product-grid .pic-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .5s ease-out 0s;
+    max-height: 100%;
+}
+
+.product-grid:hover .pic-2 {
+    opacity: 1;
+}
+
+.product-grid .product-content {
+    padding: 12px 12px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-grid .title {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 0 3px;
+    transition: all .3s ease 0s;
+}
+
+.product-grid .title a {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.row .col-lg-3 {
+    padding: 3%;
+}
+
+/**************************** About me Page ****************************/
+
+#about-me {
+    background-color: #52616B;
+}
+
+#about-me .container {
+    padding: 5% 0;
+}
+
+#about-me img {
+    width: 150px;
+}
+
+#about-me h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+}
+
+#about-me h6 {
+    font-style: italic;
+    padding: 0.8rem 3rem;
+}
+
+#about-me .about-me-content {
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    line-height: 2;
+}
+
+#about-me .card-proficiency {
+    font-size: 1.5rem;
+}
+
+#about-me .cert {
+    font-weight: 500;
+    margin: 0;
+    padding: 0.8rem 5rem;
+    padding-bottom: 0;
+}
+
+#about-me .time {
+    font-style: italic;
+    padding: 0 5rem;
+}
+
+#about-me .link-text {
+    color: #666873;
+    text-decoration: none;
+}
+
+/******** Icon/FontAwesome ********/
+
+#about-me .fa-github {
+    color: #333333;
+}
+
+#about-me .fa-twitter {
+    color: #55acee;
+}
+
+#about-me .fa-instagram {
+    color: #ac2bac;
+}
+
+#about-me .fa-facebook-f {
+    color: #3b5998;
+}
+
+/**************************** Contact Us Page ****************************/
+
+.contact {
+    padding: 20%;
+}
+
+.contact-body {
+    background-color: #F0F5F9;
+}
+
+.contact-info {
+    margin-top:10%;
+}
+
+.contact-info img {
+    margin-bottom: 15%;
+}
+
+.contact-info h2 {
+    color: lightgrey;
+    margin-bottom: 10%;
+}
+
+.contact-info h4 {
+    color: lightgrey;
+}
+
+.contact-form label {
+    font-weight:600;
+}
+
+.contact-form button {
+    background: #25274d;
+    color: #F0F5F9;
+    font-weight: 600;
+    width: 25%;
+}
+
+#contact-left{
+    background: #25274d;
+    padding: 4%;
+    border-radius: 0.5rem;
+}
+
+#contact-right{
+    border: 1px solid #25274d;
+    padding: 3%;
+    border-radius: 0.5rem;
+}
+
+/**************************** Footer ****************************/
+
+.content {
+    height: 70vh;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.footer {
+    background-color: #141d2a;
+    bottom: 0;
+    color: white;
+    padding: 5rem 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.footer .container {
+    position: relative;
+}
+
+.footer a {
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    text-decoration: none;
+}
+        
+.footer h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.footer .links li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    display: block;
+}
+
+.footer .links li a {
+    color: #666873;
+}
+
+.footer .links li a:hover {
+    color: #fff;
+}
+
+.footer .footer-logo {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.footer .copyright {
+    color: #666873;
+}
+
+
+/******** Footer Icons ********/
+
+.footer .fab {
+    padding: 1rem;
+}
+
+.footer .fa-twitter {
+    color: #55acee;
+}
+
+.footer .fa-instagram {
+    color: #ac2bac;
+}
+
+.footer .fa-facebook-f {
+    color: #3b5998;
+}
